@@ -6,7 +6,9 @@
         <page name='Ex-for'/>
         <page name='Ex-enum'/>
         <page name='Ex-optionalBinding'/>
-        <page name='UIKitEx'/>
-        <page name='Ex5'/>
+        <page name='Ex-dataType'/>
+        <page name='Ex-Uikit1'/>
+        <page name='Ex-Uikit2'/>
+        <page name='Ex-casting'/>
     </pages>
 </playground>
