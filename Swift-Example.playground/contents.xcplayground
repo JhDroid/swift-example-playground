@@ -10,5 +10,8 @@
         <page name='Ex-Uikit1'/>
         <page name='Ex-Uikit2'/>
         <page name='Ex-casting'/>
+        <page name='Ex-operator'/>
+        <page name='Ex-while'/>
+        <page name='Ex-switch'/>
     </pages>
 </playground>
