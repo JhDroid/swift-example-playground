@@ -13,5 +13,7 @@
         <page name='Ex-operator'/>
         <page name='Ex-while'/>
         <page name='Ex-switch'/>
+        <page name='Ex-closure'/>
+        <page name='Ex-class'/>
     </pages>
 </playground>

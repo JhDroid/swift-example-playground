@@ -110,4 +110,50 @@ func inoutFunction(name: inout String) {
 
 inoutFunction(name: &tempValue)
 print("tempValue : \(tempValue)")
+
+print("\n----------\n")
+
+// 함수 시그니처
+// 함수명, 매개변수, 반환 결과 타입의 조합을 '함수 시그니처'라고 함
+func functionName(argumentName: String) -> String {
+    argumentName // 단일 표현식의 경우 return 생략 가능
+}
+print(functionName(argumentName: "HI~"))
+
+// 반환된 결괏값을 사용하지 않으면 '_'에 반환값을 할당해 버림
+_ = functionName(argumentName: "버려..")
+
+// 코틀린과 동일하게 default value 설정 가능
+func defaultValue(argument1: String = "Default") {
+    // proces
+}
+defaultValue() // 기본값을 설정한 매개변수는 설정하지 않아도 됨
+
+// 결괏값을 튜플로 매핑하면 여러 결괏값을 반환할 수 있음
+func sizeConverter(_ length: Float) -> (yards: Float, centimeters: Float, meters: Float) {
+    let yards = length * 0.0277778
+    let centimeters = length * 2.54
+    let meters = length * 0.0254
+    
+    return (yards, centimeters, meters)
+}
+
+let sizeTuple = sizeConverter(20)
+sizeTuple.yards
+sizeTuple.centimeters
+sizeTuple.meters
+
+
+// 가변개수 매개변수
+func variadicParameter(_ strings: String...) {
+    // process
+}
+variadicParameter("1", "2", "3", "ok!")
+
+// 매개변수인 함수
+func inchesToFeet(_ inches: Float) -> Float {
+    return inches * 0.0833333
+}
+let toFeet = inchesToFeet // 상수나 변수에 할당
+let result1 = toFeet(10) // 원래의 함수 이름이 아닌 상수명으로 호출 가능
 //: [Next](@next)
