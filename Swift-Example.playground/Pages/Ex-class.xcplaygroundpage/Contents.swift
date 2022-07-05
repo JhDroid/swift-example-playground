@@ -45,7 +45,7 @@ class MyClass {
     let title: String // 지연 저장 프로퍼티
     
     init(title: String) {
-        selft.title = title
+        self.title = title
     }
     
     // 조금 복잡하지만 클로저를 통해 초기화 가능, 이 경우 인스턴스가 생성될 때마다 초기화 작업 수행됨

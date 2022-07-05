@@ -15,5 +15,6 @@
         <page name='Ex-switch'/>
         <page name='Ex-closure'/>
         <page name='Ex-class'/>
+        <page name='Ex-protocol'/>
     </pages>
 </playground>
