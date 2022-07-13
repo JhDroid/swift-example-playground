@@ -16,5 +16,7 @@
         <page name='Ex-closure'/>
         <page name='Ex-class'/>
         <page name='Ex-protocol'/>
+        <page name='Ex-opaqueReturnType'/>
+        <page name='Ex-inheritance'/>
     </pages>
 </playground>
