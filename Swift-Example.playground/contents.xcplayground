@@ -18,5 +18,6 @@
         <page name='Ex-protocol'/>
         <page name='Ex-opaqueReturnType'/>
         <page name='Ex-inheritance'/>
+        <page name='Ex-Extension'/>
     </pages>
 </playground>
