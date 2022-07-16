@@ -19,5 +19,6 @@
         <page name='Ex-opaqueReturnType'/>
         <page name='Ex-inheritance'/>
         <page name='Ex-Extension'/>
+        <page name='EX-struct'/>
     </pages>
 </playground>
