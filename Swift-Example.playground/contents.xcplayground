@@ -20,5 +20,6 @@
         <page name='Ex-inheritance'/>
         <page name='Ex-Extension'/>
         <page name='EX-struct'/>
+        <page name='Ex-propertyWrapper'/>
     </pages>
 </playground>
