@@ -21,5 +21,6 @@
         <page name='Ex-Extension'/>
         <page name='EX-struct'/>
         <page name='Ex-propertyWrapper'/>
+        <page name='Ex-propertyWrapper_multipleType'/>
     </pages>
 </playground>
